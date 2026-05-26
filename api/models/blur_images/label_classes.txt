@@ -1,0 +1,3 @@
+defocused_blurred 
+motion_blurred 
+sharp 

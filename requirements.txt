@@ -1,0 +1,10 @@
+flask
+flask-cors
+pillow
+python-dotenv
+google-genai
+opencv-python-headless
+paddleocr
+paddlepaddle
+onnxruntime
+gunicorn
