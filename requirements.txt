@@ -6,7 +6,7 @@ google-genai
 opencv-python-headless
 onnxruntime
 gunicorn
-paddlepaddle==2.6.2
-paddleocr==2.7.3
-paddlex==2.5.0
+paddlepaddle==3.2.2
+paddleocr==3.3.3
+paddlex>=3.0.0b0
 numpy==1.26.4
