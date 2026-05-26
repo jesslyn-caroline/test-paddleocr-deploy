@@ -6,7 +6,8 @@ import json
 import sys
 import os
 
-from paddleocr import PaddleOCR
+if 'paddleocr' not in sys.modules:
+    from paddleocr import PaddleOCR
 
 ocr = PaddleOCR(use_angle_cls=True)
 
