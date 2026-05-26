@@ -4,7 +4,9 @@ pillow
 python-dotenv
 google-genai
 opencv-python-headless
-paddleocr
-paddlepaddle
 onnxruntime
 gunicorn
+paddlepaddle==2.6.2
+paddleocr==2.7.3
+paddlex==2.5.0
+numpy==1.26.4
