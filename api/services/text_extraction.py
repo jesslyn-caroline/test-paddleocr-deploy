@@ -13,9 +13,6 @@ ocr = PaddleOCR(
     use_angle_cls=True, 
     enable_mkldnn=False, 
     lang='en',
-    det_model_dir=None, 
-    rec_model_dir=None,
-    type='ocr',
     ocr_version='PP-OCRv4'
 )
 
