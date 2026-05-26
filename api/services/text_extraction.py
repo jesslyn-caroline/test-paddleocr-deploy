@@ -9,7 +9,15 @@ import os
 if 'paddleocr' not in sys.modules:
     from paddleocr import PaddleOCR
 
-ocr = PaddleOCR(use_angle_cls=True, enable_mkldnn=False)
+ocr = PaddleOCR(
+    use_angle_cls=True, 
+    enable_mkldnn=False, 
+    lang='en',
+    det_model_dir=None, 
+    rec_model_dir=None,
+    type='ocr',
+    ocr_version='PP-OCRv4'
+)
 
 load_dotenv()
 API_KEY = os.getenv('API_KEY')
