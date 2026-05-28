@@ -21,7 +21,7 @@ API_KEY = os.getenv('API_KEY')
 client = genai.Client(api_key=API_KEY)
 
 def predict(image):
-    image = Image.open(image)
+    image = Image.open(image).convert('RGB')
     image = np.array(image)
 
     predicted = ocr.predict(image)
